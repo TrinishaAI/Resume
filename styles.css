@@ -230,6 +230,10 @@ img {
 
 .stat {
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 .stat-value {
@@ -241,9 +245,9 @@ img {
 
 .stat-value-text {
     font-family: 'Playfair Display', serif;
-    font-size: 1.8rem;
+    font-size: 2.5rem;
     font-weight: 700;
-    color: var(--white);
+    line-height: 1;
     background: var(--gradient-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
