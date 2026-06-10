@@ -239,6 +239,17 @@ img {
     color: var(--white);
 }
 
+.stat-value-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.8rem;
+    font-weight: 700;
+    color: var(--white);
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 .stat-suffix {
     font-family: 'Playfair Display', serif;
     font-size: 1.5rem;
