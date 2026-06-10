@@ -1139,106 +1139,166 @@ img {
 }
 
 .resume-doc {
-    max-width: 860px;
+    max-width: 900px;
     margin: 0 auto;
     background: #ffffff;
     color: #1a1a1a;
-    border-radius: 16px;
-    padding: 60px;
+    border-radius: 12px;
+    padding: 48px 56px;
     box-shadow: var(--shadow-lg);
-    font-family: 'Inter', sans-serif;
-    font-size: 0.95rem;
-    line-height: 1.7;
+    font-family: 'Calibri', 'Inter', sans-serif;
+    font-size: 0.88rem;
+    line-height: 1.5;
 }
 
 .resume-doc-header {
-    text-align: center;
-    border-bottom: 2px solid #0066cc;
-    padding-bottom: 20px;
-    margin-bottom: 28px;
-}
-
-.resume-doc-header h1 {
-    font-family: 'Playfair Display', serif;
-    font-size: 2.2rem;
-    color: #1a1a1a;
-    margin-bottom: 8px;
-}
-
-.resume-doc-header p {
-    color: #444;
-    font-size: 0.9rem;
-}
-
-.resume-doc-header a {
-    color: #0066cc;
-}
-
-.resume-section {
-    margin-bottom: 28px;
-}
-
-.resume-section h2 {
-    font-family: 'Inter', sans-serif;
-    font-size: 0.8rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    color: #0066cc;
-    border-bottom: 1px solid #e0e0e0;
-    padding-bottom: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    border-bottom: 2px solid #1f5c99;
+    padding-bottom: 12px;
     margin-bottom: 16px;
 }
 
-.resume-role {
-    margin-bottom: 20px;
+.resume-header-left h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.9rem;
+    color: #1a1a1a;
+    margin-bottom: 4px;
 }
 
-.resume-role-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: baseline;
-    flex-wrap: wrap;
-    gap: 8px;
-    margin-bottom: 8px;
+.resume-header-left h1 a {
+    color: #1f5c99;
+    font-size: 1.1rem;
+    font-family: 'Inter', sans-serif;
 }
 
-.resume-company {
+.resume-header-left p {
+    font-size: 0.85rem;
+    color: #333;
+}
+
+.resume-header-left a {
+    color: #1f5c99;
+    text-decoration: underline;
+}
+
+.resume-header-photo img {
+    width: 72px;
+    height: 72px;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.resume-section {
+    margin-bottom: 14px;
+}
+
+.resume-section-title {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.88rem;
     font-weight: 700;
     color: #1a1a1a;
-    font-size: 0.95rem;
+    border-bottom: 1px solid #aaa;
+    padding-bottom: 2px;
+    margin-bottom: 8px;
+    text-transform: none;
+    letter-spacing: 0;
 }
 
-.resume-date {
-    color: #666;
-    font-size: 0.85rem;
-    white-space: nowrap;
+.resume-row {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 10px;
 }
 
-.resume-team {
-    font-weight: 600;
+.resume-dates {
+    min-width: 80px;
+    font-size: 0.82rem;
     color: #333;
-    margin: 12px 0 6px;
-    font-style: italic;
+    padding-top: 2px;
+    line-height: 1.4;
+}
+
+.resume-content {
+    flex: 1;
+}
+
+.resume-org {
+    margin-bottom: 4px;
+    font-size: 0.88rem;
+}
+
+.resume-team-title {
+    font-weight: 700;
+    margin: 8px 0 4px;
+    font-size: 0.88rem;
+    color: #1a1a1a;
 }
 
 .resume-doc ul {
-    padding-left: 20px;
-    margin: 0;
+    padding-left: 18px;
+    margin: 4px 0 8px;
 }
 
 .resume-doc ul li {
-    margin-bottom: 8px;
-    color: #333;
+    margin-bottom: 5px;
+    color: #1a1a1a;
+    font-size: 0.88rem;
+    list-style-type: disc;
 }
 
 .resume-doc p {
-    color: #333;
-    margin-bottom: 8px;
+    color: #1a1a1a;
+    margin-bottom: 4px;
+    font-size: 0.88rem;
 }
 
 .resume-doc strong {
     color: #1a1a1a;
+}
+
+.resume-doc a {
+    color: #1f5c99;
+    text-decoration: underline;
+}
+
+.resume-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.88rem;
+}
+
+.resume-table tr td {
+    padding: 3px 6px;
+    vertical-align: top;
+    color: #1a1a1a;
+    border: 1px solid #ddd;
+}
+
+.resume-td-date {
+    white-space: nowrap;
+    font-size: 0.82rem;
+    min-width: 90px;
+}
+
+.resume-td-org {
+    min-width: 180px;
+}
+
+.resume-td-location {
+    white-space: nowrap;
+    text-align: right;
+}
+
+.resume-table ul {
+    padding-left: 16px;
+    margin: 2px 0;
+}
+
+.resume-table ul li {
+    font-size: 0.85rem;
+    margin-bottom: 2px;
 }
 
 /* ===== Footer ===== */
