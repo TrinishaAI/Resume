@@ -236,28 +236,40 @@ img {
     justify-content: flex-end;
 }
 
+.stat-line {
+    display: flex;
+    align-items: baseline;
+    justify-content: center;
+    gap: 2px;
+    white-space: nowrap;
+}
+
 .stat-value {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     font-weight: 700;
     color: var(--white);
+    line-height: 1;
+}
+
+.stat-suffix {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: var(--primary-light);
+    line-height: 1;
 }
 
 .stat-value-text {
     font-family: 'Playfair Display', serif;
     font-size: 2.5rem;
     font-weight: 700;
-    line-height: 1;
+    line-height: 1.1;
     background: var(--gradient-primary);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
-}
-
-.stat-suffix {
-    font-family: 'Playfair Display', serif;
-    font-size: 1.5rem;
-    color: var(--primary-light);
+    text-align: center;
 }
 
 .stat-label {

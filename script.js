@@ -110,6 +110,7 @@ tabBtns.forEach(btn => {
 
 // ===== Animated Counter =====
 function animateCounter(el, target) {
+    const prefix = el.dataset.prefix || '';
     let current = 0;
     const increment = target / 50;
     const duration = 2000;
@@ -118,10 +119,10 @@ function animateCounter(el, target) {
     const timer = setInterval(() => {
         current += increment;
         if (current >= target) {
-            el.textContent = target;
+            el.textContent = prefix + target;
             clearInterval(timer);
         } else {
-            el.textContent = Math.floor(current);
+            el.textContent = prefix + Math.floor(current);
         }
     }, stepTime);
 }
