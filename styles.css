@@ -1128,6 +1128,27 @@ img {
     font-size: 0.95rem;
 }
 
+/* ===== Resume Embed ===== */
+.resume-actions {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+.resume-actions .btn i {
+    margin-right: 8px;
+}
+
+.resume-frame {
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: var(--shadow-lg);
+}
+
+.resume-frame iframe {
+    display: block;
+}
+
 /* ===== Footer ===== */
 .footer {
     background: var(--gray-900);
