@@ -1138,15 +1138,107 @@ img {
     margin-right: 8px;
 }
 
-.resume-frame {
+.resume-doc {
+    max-width: 860px;
+    margin: 0 auto;
+    background: #ffffff;
+    color: #1a1a1a;
     border-radius: 16px;
-    overflow: hidden;
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    padding: 60px;
     box-shadow: var(--shadow-lg);
+    font-family: 'Inter', sans-serif;
+    font-size: 0.95rem;
+    line-height: 1.7;
 }
 
-.resume-frame iframe {
-    display: block;
+.resume-doc-header {
+    text-align: center;
+    border-bottom: 2px solid #0066cc;
+    padding-bottom: 20px;
+    margin-bottom: 28px;
+}
+
+.resume-doc-header h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 2.2rem;
+    color: #1a1a1a;
+    margin-bottom: 8px;
+}
+
+.resume-doc-header p {
+    color: #444;
+    font-size: 0.9rem;
+}
+
+.resume-doc-header a {
+    color: #0066cc;
+}
+
+.resume-section {
+    margin-bottom: 28px;
+}
+
+.resume-section h2 {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #0066cc;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 6px;
+    margin-bottom: 16px;
+}
+
+.resume-role {
+    margin-bottom: 20px;
+}
+
+.resume-role-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 8px;
+}
+
+.resume-company {
+    font-weight: 700;
+    color: #1a1a1a;
+    font-size: 0.95rem;
+}
+
+.resume-date {
+    color: #666;
+    font-size: 0.85rem;
+    white-space: nowrap;
+}
+
+.resume-team {
+    font-weight: 600;
+    color: #333;
+    margin: 12px 0 6px;
+    font-style: italic;
+}
+
+.resume-doc ul {
+    padding-left: 20px;
+    margin: 0;
+}
+
+.resume-doc ul li {
+    margin-bottom: 8px;
+    color: #333;
+}
+
+.resume-doc p {
+    color: #333;
+    margin-bottom: 8px;
+}
+
+.resume-doc strong {
+    color: #1a1a1a;
 }
 
 /* ===== Footer ===== */
