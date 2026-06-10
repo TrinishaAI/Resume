@@ -272,11 +272,22 @@ img {
     text-align: center;
 }
 
+.stat-value-text .ai-native-label {
+    display: block;
+    font-family: 'Inter', sans-serif;
+    font-size: 0.85rem;
+    font-weight: 500;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
 .stat-label {
     display: block;
-    font-size: 0.85rem;
+    font-size: 0.8rem;
     color: var(--gray-400);
-    margin-top: 4px;
+    margin-top: 6px;
 }
 
 .hero-cta {
